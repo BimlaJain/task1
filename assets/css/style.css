@@ -7,14 +7,17 @@
     background-size: cover;
     width: 100%;
     border-radius: 12px;
-    
+
 }
-.z-10{
+
+.z-10 {
     z-index: 10;
 }
-.layer{
+
+.layer {
     position: relative;
 }
+
 .layer::after {
     background: rgba(255, 0, 0, 0.75);
     content: '';
@@ -22,7 +25,7 @@
     width: 100%;
     position: absolute;
     top: 0%;
-    left:0%;
+    left: 0%;
     border-radius: 12px;
 }
 
@@ -60,15 +63,22 @@
     padding: 20px 32px;
     z-index: 4;
     position: relative;
+    cursor: pointer;
+}
+
+btn:hover {
+    background-color: rgba(255, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 .py-64 {
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
 @media (max-width:576px) {
-    .heading{
+    .heading {
         font-size: 46px;
     }
-    
+
 }
